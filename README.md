@@ -54,10 +54,8 @@ npm start
 - `public/` – Static files
 - `src/` – Source code
   - `components/` – React components
-  - `pages/` – Page components
-  - `utils/` – Utility functions
+  - `app/` – Page components
   - `firebase.js` – Firebase configuration and initialization
-  - `clerk.js` – Clerk authentication configuration
 
 ## Notes
 
