@@ -1,0 +1,17 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["svg-jsx"],
+  "rules": {
+    "svg-jsx/camel-case-dash": "error",
+    "svg-jsx/camel-case-colon": "error",
+    "svg-jsx/no-style-string": "error",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      {
+        "props": "never", // Enforce curly braces for props
+        "children": "ignore", // Ignore curly braces for children
+        "propElementValues": "ignore" // Ignore curly braces for prop element values
+      }
+    ]
+  }
+}
