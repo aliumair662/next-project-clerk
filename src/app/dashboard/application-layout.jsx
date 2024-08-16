@@ -33,10 +33,7 @@ import {
   ShieldCheckIcon,
   UserCircleIcon,
 } from '@heroicons/react/16/solid'
-import {
-  HomeIcon,
-  Square2StackIcon,
-} from '@heroicons/react/20/solid'
+import { HomeIcon, Square2StackIcon } from '@heroicons/react/20/solid'
 import { usePathname } from 'next/navigation'
 import { SignOutButton, useUser } from '@clerk/nextjs'
 
